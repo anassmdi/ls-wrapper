@@ -4,7 +4,6 @@ A lightweight library that eliminates boilerplate code when working with localSt
 
 ## Methods
 
-
 ```typescript
 /*
  * used for retrieving data saved in local-storage with string values
@@ -52,4 +51,24 @@ export function del(key: string): void {
 export function parse<T>(key: string): T | null {
     return get(key) ? JSON.parse(get(key)!) as T : null;
 }
+```
+
+## Usage
+
+```typescript
+import { get, set, del, parse } from 'ls-wrapper';
+
+export enum LSKeys {
+    jwt = 'jwt',
+    lang = 'lang'
+}
+
+const lang = get(LSKeys.lang);
+
+const jwt = {...};
+set(LSKeys.jwt, jwt);
+
+del(LSKeys.jwt);
+
+const jwt2 = parse<JWT>(LSKeys.jwt);
 ```
