@@ -43,13 +43,13 @@ lerna-debug.log*
 Thumbs.db
 
 # Editor-specific configs (Uncomment if you want to ignore them)
-#.idea/
-#.vscode/
-#*.suo
-#*.ntvs*
-#*.njsproj
-#*.sln
-#*.sw?
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # ==============================================================================
 # Secrets and Local Environment
