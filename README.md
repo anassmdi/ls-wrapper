@@ -1,4 +1,4 @@
-# localStore Wrapper
+# localStorage Wrapper
 
 A lightweight library that eliminates boilerplate code when working with localStorage in Typescript.
 

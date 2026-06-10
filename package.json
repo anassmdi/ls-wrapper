@@ -1,6 +1,6 @@
 {
   "name": "ls-wrapper",
-  "version": "0.0.1",
+  "version": "1.0.4",
   "description": "A lightweight, type-safe wrapper for localStorage",
   "keywords": [
     "localStorage",
@@ -22,7 +22,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "build": "tsc",
