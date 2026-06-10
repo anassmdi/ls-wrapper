@@ -1,0 +1,67 @@
+# ==============================================================================
+# Dependencies
+# ==============================================================================
+node_modules/
+jspm_packages/
+.pnpm-store/
+
+# ==============================================================================
+# Build Outputs
+# ==============================================================================
+# TS compiles to this directory (adjust if your tsconfig.json uses "outDir": "./dist")
+dist/
+build/
+lib/
+tsbuildinfo/
+*.tsbuildinfo
+
+# ==============================================================================
+# Testing & Coverage
+# ==============================================================================
+coverage/
+.nyc_output/
+.jest/
+
+# ==============================================================================
+# Logs and Runtime Diagnostics
+# ==============================================================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================================================================
+# IDEs, Editors, and OS Files
+# ==============================================================================
+.eslintcache
+.stylelintcache
+.prettiercache
+.DS_Store
+Thumbs.db
+
+# Editor-specific configs (Uncomment if you want to ignore them)
+#.idea/
+#.vscode/
+#*.suo
+#*.ntvs*
+#*.njsproj
+#*.sln
+#*.sw?
+
+# ==============================================================================
+# Secrets and Local Environment
+# ==============================================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==============================================================================
+# npm / Pack Releases
+# ==============================================================================
+# Tarball logs from running `npm pack`
+*.tgz
