@@ -2,6 +2,12 @@
 
 A lightweight library that eliminates boilerplate code when working with localStorage in Typescript.
 
+## Installation
+
+```
+npm i ls-wrapper
+```
+
 ## Methods
 
 ```typescript
